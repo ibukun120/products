@@ -87,7 +87,7 @@ export default function ProductCard({
   return (
     <div
       onClick={() => onSelect(product)}
-      className="bg-white border border-gray-200 rounded-xl overflow-hidden cursor-pointer hover:border-gray-400 hover:shadow-sm transition-all flex flex-col"
+      className="bg-gray-50 border-gray-200 rounded-xl overflow-hidden cursor-pointer hover:border-gray-400 hover:shadow-sm transition-all flex flex-col hover:-translate-y-1 duration-300"
     >
       {/* Image */}
       <div className="relative bg-gray-50 h-36 flex items-center justify-center p-3">

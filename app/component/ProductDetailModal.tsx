@@ -82,7 +82,7 @@ export default function ProductDetailModal({ product, onClose }: ProductDetailMo
           </span>
           <button
             onClick={onClose}
-            className="text-gray-400 hover:text-gray-600 text-xl leading-none"
+            className="text-gray-400 cursor-pointer hover:text-gray-600 text-xl leading-none"
             aria-label="Close"
           >
             ✕
