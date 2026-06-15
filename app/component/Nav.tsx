@@ -36,8 +36,8 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <header className="absolute top-0 left-0 w-full z-20">
-      <div className="max-w-7xl mx-auto px-8 py-6">
+    <header className="absolute top-0 left-0 w-full z-20 bg-gray-600/30 backdrop-blur-md">
+      <div className="max-w-7xl mx-auto px-8 py-4">
         <nav className="flex items-center justify-between">
           <Link
             href="/"
