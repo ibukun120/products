@@ -55,10 +55,10 @@ export default function Nav() {
             </Link>
 
             <Link
-              href="/"
+              href="/beli"
               className="text-white uppercase text-sm tracking-widest"
             >
-              About
+              Beli
             </Link>
 
             <Link
